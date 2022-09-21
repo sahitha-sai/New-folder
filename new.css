@@ -1,0 +1,487 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: "Roboto", "Arial","sans-serif";
+
+}
+
+.header{
+    background-image: url("https://images01.nicepage.com/a1389d7bc73adea1e1c1fb7e/4000b7b59e3f5e8994d12620/pexels-photo-7545837.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:100vh;
+    /* width: 98%; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+   /* line-height: 40px;  */
+    
+}
+
+.food_container{
+    width: 40%;
+    color:white;
+    font-size: 12px;
+}
+
+.natural_heading{
+    padding: 10px;
+
+}
+.read_button{
+    margin-top: 20px;
+    border-radius: 35px;
+    color: white;
+    background-color: #12c757;
+    height: 40px;
+    width: 150px;
+    letter-spacing: 1px;
+    border-style: none;
+    text-shadow: 0 0 0 rgb(0 0 0 / 0%);
+    font-size: 12px;
+    text-transform: uppercase;
+    background-image: none;
+    font-weight: 700;
+
+    /* padding: 12px 84px 12px 83px; */
+}
+
+
+.caesar_heading{
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 40px;
+}
+
+.dollar_text{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.sample_text_para{
+    font-size: 15px;
+    opacity: 0.9;
+    line-height: 30px;
+}
+
+
+.img_address{
+    height: 120px;
+    width: 120px;
+}
+
+.nav{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+
+}
+
+.nav_2{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.nav_2 *{
+    padding: 3px;
+}
+
+.card_container{
+    padding: 30px;
+}
+
+
+.healthy_container {
+    background-color: #f0cf56;
+    height:100%;
+    width:100%;
+    padding-top: 30px;
+}
+
+
+.img-1{
+    height: 80vh;
+    width: 100vw;
+}
+
+
+
+.healthy_container h1{ 
+    margin-top: 20px;
+    padding-bottom: 10px;
+    font-size: 2.25rem;
+    color: #ffffff;
+    margin-left: 20px;
+}
+
+.healthy_container p{ 
+    line-height: 2;
+    margin-left: 20px;
+    color: #ffffff;
+
+}
+
+.healthy_container div button{ 
+    letter-spacing: 1px;
+    border-style: none;
+    text-shadow: 0 0 0 rgb(0 0 0 / 0%);
+    font-size: 1.125rem;
+    text-transform: uppercase;
+    background-image: none;
+    font-weight: 700;
+    margin: 8px auto 0 0;
+    padding: 12px 84px 12px 83px;
+    color: #ffffff !important;
+    background-color: #12c757 !important;
+    border-radius: 50px;
+    margin-bottom: 20px;
+}
+
+.cooking_address  {
+    background-color: #ffff;
+    margin: 20px;
+    display:flex;
+    flex-direction: column;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+    height:100%;
+
+    
+}
+.cooking_address > *{
+    margin: 1rem 0;
+    border-radius: 80px;
+    display: block;
+
+}
+.button{
+    letter-spacing: 1px;
+    border-style: none;
+    text-shadow: 0 0 0 rgb(0 0 0 / 0%);
+    font-size: 1.125rem;
+    text-transform: uppercase;
+    background-image: none;
+    font-weight: 700;
+    margin: 8px auto 0 0;
+    padding: 12px 84px 12px 83px;
+    color: #ffffff ;
+    background-color: #12c757 ;
+    border-radius: 50px;
+    margin-bottom: 20px;
+    margin-left: 10%;
+}
+.our_container{
+    background-color: #f0cf56;
+    padding-top: 30px;
+}
+
+.our_container h1{ 
+    margin-top: 20px;
+    padding-bottom: 10px;
+    font-size: 2.25rem;
+    color: #ffffff;
+    margin-left: 20px;
+}
+.our_container p{ 
+    line-height: 2;
+    margin-left: 20px;
+    color: #ffffff;
+    font-size: 1rem;
+    line-height: 1.6;
+
+}
+.our-button,.sub-button{
+    letter-spacing: 1px;
+    border-style: none;
+    text-shadow: 0 0 0 rgb(0 0 0 / 0%);
+    font-size: 1.125rem;
+    text-transform: uppercase;
+    background-image: none;
+    font-weight: 700;
+    margin: 8px auto 0 0;
+    padding: 12px 84px 12px 83px;
+    color: #ffffff !important;
+    background-color: #12c757 !important;
+    border-radius: 50px;
+    margin-bottom: 20px;
+    margin-left: 5%;
+    
+}
+
+.img-2{
+    width: 200px;
+    height: 200px;
+    fill: #12c757;
+    pointer-events: initial;
+    border-radius: 60%;
+}
+.mail-button {
+    letter-spacing: 1px;
+    border-style: none;
+    text-shadow: 0 0 0 rgb(0 0 0 / 0%);
+    font-size: 1.125rem;
+    text-transform: uppercase;
+    background-image: none;
+    font-weight: 100;
+    margin: 8px auto 0 0;
+    padding: 12px 84px 12px 83px;
+    background-color: transparent;
+    color: white;
+    border: 1px solid #39c712;
+    border-radius: 50px;
+    margin-bottom: 20px;
+    margin-left:25px;
+
+}
+.footer_section{
+    background-color:#efac35;
+    text-align: center;
+    padding-top: 30px;
+    color:white;
+    line-height: 50px;
+}
+.sub-button{
+    color:white;
+    background-color: #12c757;
+    font-weight: 100;
+}
+.footer {
+    color:#ffffff;
+    text-align: center;
+    background-color: #333333;
+    padding-top: 30px;
+    line-height: 50px;
+}
+
+
+
+/* for medium devices */
+
+@media (min-width:767px) {
+    .food_container{
+        width: 60%;
+        font-size: 15px;
+    }
+
+    .img_address{
+        height: 150px;
+        width: 150px;
+    }
+
+    .nav{
+        display: flex;
+        flex-direction: row;
+
+    }
+    .nav_2{
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+    }
+    .healthy_card{
+        display: flex;
+        flex-direction: row;
+        height: 72vh;
+        
+    }
+    .img-1{
+        height: 72vh;
+        width: 50vw;
+    }
+    .cooking_address  {
+    background-color: #ffff;
+    margin: 20px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 30px;
+    margin-right: 30px;
+    height:100%;
+    width:100%;
+    }
+
+    .cooking_address > *{
+    margin: 1rem 0;
+    border-radius: 50px;
+    display: block;
+    width: 20%;
+}
+
+.heading-2{
+    margin-top: 150px;
+}
+
+
+    .button{
+    margin-left: 30%;
+}
+
+    .our_icecream_text{
+    padding-left: 100px;
+}
+    .img-2{
+    width: 350px;
+    height: 350px;
+    padding: 20px 30px ;
+
+}
+} 
+
+/* for large devices */
+
+@media (min-width:1023px) {
+    .food_container{
+        width: 60%;
+        font-size: 15px;
+    }
+
+    .card_container{
+        display: flex;
+        flex-direction: row;
+    }
+    .img_address{
+        height: 200px;
+        width: 200px;
+    }
+
+    .healthy_container{
+        height: 100vh;
+        width: 50vw;
+        line-height: 150px;
+        padding-top: 80px;
+        padding-left: 40px;
+    }
+
+    .nav{
+        display: flex;
+        flex-direction: row;
+
+    }
+    .nav_2{
+        display: flex;
+        flex-direction: column;
+        padding: 30px;
+    }
+
+    .img-1{
+        height: 100vh;
+        width: 50vw;
+    }
+
+    .healthy_container h1{ 
+        font-size: 3.25rem;
+        color: #ffffff;
+    }
+
+    .cooking_address{
+        width:40%;
+        height:40%;
+
+    }
+    .heading-2{
+    margin-top: 150px;
+    }
+
+    .cooking_address  {
+    background-color: #ffff;
+    margin: 20px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+    height:100%;
+    width:98%;
+    
+    }
+    .cooking_address > *{
+    margin: 1rem 0;
+    border-radius: 50px;
+    display: block;
+    width: 20%;
+    }
+.heading-2{
+    margin-top: 200px;
+}
+.button{
+    margin-left: 40%;
+} 
+
+.our_container{
+    display: flex;
+}
+
+.our_icecream_text{
+    display: flex;
+    flex-direction: column;
+}
+
+.img-2{
+    width: 400px;
+    height: 400px;
+    padding: 20px 30px;
+}
+
+.our_icecream_text{
+    width: 60%;
+    line-height: 100px;
+}
+
+
+} 
+
+
+/* for extra large devices */
+
+@media (min-width:1440px) {
+    .food_container{
+        width: 60%;
+        font-size: 23px;
+        line-height: 40px;
+    }
+    .img-1{
+        height: 100vh;
+        width: 50vw;
+    }
+
+    .healthy_container h1{ 
+        font-size: 4.25rem;
+        color: #ffffff;
+    }
+    .heading-2{
+        margin-top: 300px;
+    }
+    .img-2{
+        width: 500px;
+        height: 500px;
+        padding: 20px 30px;
+    }
+    
+    .our_icecream_text{
+        width: 60%;
+    }
+
+    .our_icecream_text h1{
+        font-size: 100px;
+        font-weight: 700;
+    }
+    .our_icecream_text p{
+        font-size: 20px;
+        font-weight: 150;
+        padding-top: 30px;
+    }
+    
+
+
+
+} 
